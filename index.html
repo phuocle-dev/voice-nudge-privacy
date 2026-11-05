@@ -1,84 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Privacy Policy for VoiceNudge" />
-  <title>Privacy Policy | VoiceNudge</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for VoiceNudge by NexusCraft Studio.">
+  <title>Privacy Policy - VoiceNudge</title>
   <style>
-    :root { color-scheme: light; }
+    :root { color-scheme: light; --ink:#202124; --muted:#5f6368; --accent:#d95f4b; --line:#e8e8e8; --bg:#fafafa; }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: #f6f7fb;
-      color: #1f2937;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.65;
-    }
-    main {
-      width: min(800px, calc(100% - 32px));
-      margin: 48px auto;
-      padding: 40px;
-      background: #ffffff;
-      border: 1px solid #e5e7eb;
-      border-radius: 16px;
-      box-shadow: 0 12px 32px rgba(17, 24, 39, 0.07);
-    }
-    h1, h2 { color: #111827; line-height: 1.25; }
-    h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 2.6rem); }
-    h2 { margin: 34px 0 10px; font-size: 1.3rem; }
-    p { margin: 10px 0; }
-    ul { margin: 10px 0; padding-left: 24px; }
-    .updated { color: #6b7280; margin-top: 0; }
-    .brand { color: #5b5ce2; font-weight: 700; }
-    footer { margin-top: 38px; padding-top: 18px; border-top: 1px solid #e5e7eb; color: #6b7280; font-size: .92rem; }
-    @media (max-width: 600px) { main { margin: 20px auto; padding: 26px 20px; border-radius: 12px; } }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+    main { width:min(900px, calc(100% - 32px)); margin:40px auto; padding:clamp(24px,5vw,56px); background:#fff; border:1px solid var(--line); border-radius:16px; }
+    h1 { margin:0 0 4px; font-size:clamp(30px,5vw,40px); line-height:1.2; letter-spacing:-.03em; }
+    .updated { color:var(--muted); margin:0 0 28px; font-size:14px; }
+    h2 { margin:34px 0 10px; font-size:22px; line-height:1.35; }
+    h3 { margin:22px 0 8px; font-size:18px; line-height:1.4; }
+    p { margin:10px 0; }
+    ul { padding-left:24px; margin:10px 0 16px; }
+    li { margin:5px 0; }
+    a { color:#b94736; text-decoration:underline; text-underline-offset:3px; overflow-wrap:anywhere; }
+    .brand { color:var(--accent); font-weight:650; letter-spacing:.01em; margin-bottom:12px; }
+    footer { margin-top:36px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+    @media (max-width:600px) { main { margin:0 auto; width:100%; border:0; border-radius:0; padding:28px 22px; } }
   </style>
 </head>
 <body>
-  <main>
-    <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: September 9, 2026</p>
+<main>
+  <div class="brand">VoiceNudge</div>
+  <h1>Privacy Policy</h1>
+  <p class="updated"><strong>Last updated:</strong> November 5, 2026</p>
 
-    <p><span class="brand">VoiceNudge</span> respects your privacy. This Privacy Policy explains how the app handles your information.</p>
+  <p>NexusCraft Studio ("we", "our", or "us") respects your privacy. This Privacy Policy explains how VoiceNudge ("the App") collects, uses, stores, and protects information when you use our application on iOS and Android devices.</p>
+  <p>By using VoiceNudge, you acknowledge that you have read this Privacy Policy.</p>
 
-    <h2>Information We Collect</h2>
-    <p>VoiceNudge may collect limited technical information, such as:</p>
-    <ul>
-      <li>Device model and operating system version</li>
-      <li>App version</li>
-      <li>Anonymous device identifier</li>
-      <li>Reminder notification events, such as scheduled or triggered notifications</li>
-    </ul>
-    <p>Voice recordings created by you are stored locally on your device and are not uploaded to our servers.</p>
+  <h2>1. Information We Collect</h2>
+  <p>VoiceNudge is designed to work primarily on your device. You do not need to create an account or provide personal information such as your name, phone number, or email address to use the App.</p>
+  <p>Depending on how you use the App and its integrated services, the following information may be processed.</p>
 
-    <h2>How We Use Information</h2>
-    <p>We use this information only to:</p>
-    <ul>
-      <li>Provide and improve VoiceNudge</li>
-      <li>Monitor notification reliability</li>
-      <li>Identify and fix technical issues</li>
-      <li>Understand basic app usage and performance</li>
-    </ul>
-    <p>We do not sell your personal information.</p>
+  <h3>1.1 Voice Recordings and Imported Audio</h3>
+  <p>When you choose to record a voice reminder or import an audio file:</p>
+  <ul>
+    <li>The App accesses your microphone when you initiate a recording.</li>
+    <li>The App processes audio files that you choose to import.</li>
+    <li>Voice recordings and imported audio files are stored locally on your device.</li>
+    <li>Audio files may be processed or converted into a supported format for reminder playback.</li>
+    <li>We do not upload your voice recordings or imported audio files to our servers or Firebase Analytics.</li>
+  </ul>
 
-    <h2>Data Storage</h2>
-    <p>Reminder data and voice recordings are primarily stored on your device.</p>
-    <p>Limited technical and notification-tracking data may be stored securely using third-party services to help us monitor and improve the app.</p>
+  <h3>1.2 Reminder Information</h3>
+  <p>The App may store information that you provide when creating and managing reminders, including:</p>
+  <ul>
+    <li>Reminder titles and descriptions.</li>
+    <li>Scheduled dates and times.</li>
+    <li>Repeat settings and reminder schedules.</li>
+    <li>Associated voice recordings and sound files.</li>
+    <li>Reminder preferences and settings.</li>
+  </ul>
+  <p>This information is stored locally on your device and is used to provide the App's reminder functionality.</p>
 
-    <h2>Notifications</h2>
-    <p>VoiceNudge requires notification permission to deliver reminders. Notification permissions can be managed through your device settings.</p>
+  <h3>1.3 Technical and Usage Information</h3>
+  <p>VoiceNudge uses Google Firebase Analytics to understand how users interact with the App and to improve its functionality and user experience.</p>
+  <p>Firebase Analytics may collect certain technical and usage information, including:</p>
+  <ul>
+    <li>App interaction events, such as creating, deleting, enabling, and disabling reminders.</li>
+    <li>Screen views and app usage events.</li>
+    <li>App opening and session-related events, where supported.</li>
+    <li>App version and operating system information.</li>
+    <li>Device information, such as device model and language.</li>
+    <li>App instance identifiers and other technical identifiers used by Firebase Analytics.</li>
+  </ul>
+  <p>Some technical and usage information may be collected automatically by Firebase Analytics, depending on the SDK configuration and device platform.</p>
+  <p>We use this information for analytics, understanding app usage, and improving the App.</p>
+  <p>For more information about Google's data practices, please visit:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google Privacy Policy</a></li>
+    <li><a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer" target="_blank">Firebase Privacy and Security</a></li>
+  </ul>
 
-    <h2>Your Privacy</h2>
-    <p>VoiceNudge does not require you to create an account and does not intentionally collect sensitive personal information.</p>
+  <h2>2. How We Use Information</h2>
+  <p>Information processed by VoiceNudge is used to:</p>
+  <ul>
+    <li>Create and manage voice reminders.</li>
+    <li>Record, import, process, and play reminder audio.</li>
+    <li>Schedule and deliver local notifications and alarms.</li>
+    <li>Remember reminder settings and preferences.</li>
+    <li>Understand how users interact with the App.</li>
+    <li>Analyze app usage and improve functionality, stability, and user experience.</li>
+  </ul>
+  <p>We do not use voice recordings or reminder content for advertising or behavioral profiling.</p>
 
-    <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Any changes will be reflected in the updated version of this policy.</p>
+  <h2>3. Microphone Permission</h2>
+  <p>VoiceNudge requests microphone access when you choose to record a voice reminder.</p>
+  <p>Microphone access is used only to record audio that you explicitly choose to create.</p>
+  <p>You can manage or revoke microphone permission through your device settings. If permission is denied, voice recording functionality may not be available.</p>
 
-    <h2>Contact</h2>
-    <p>If you have questions about this Privacy Policy, please contact us through the contact information provided on the App Store.</p>
+  <h2>4. Notifications and Alarm Permissions</h2>
+  <p>VoiceNudge uses notification and supported alarm functionality to deliver reminders at scheduled times.</p>
+  <p>Depending on your device and operating system, the App may request notification permission or additional alarm-related permissions.</p>
+  <p>These permissions are used to schedule and deliver reminders. You can manage notification and alarm permissions through your device settings.</p>
 
-    <footer>© 2026 VoiceNudge. All rights reserved.</footer>
-  </main>
+  <h2>5. Data Storage and Security</h2>
+  <p>Reminder information, voice recordings, and imported audio files are stored locally on your device.</p>
+  <p>VoiceNudge does not require an account or operate a cloud account system for storing your reminder content.</p>
+  <p>Firebase Analytics processes technical and usage information as described in this Privacy Policy.</p>
+  <p>We take reasonable measures to protect information handled by the App. However, no method of electronic storage or transmission can be guaranteed to be completely secure.</p>
+
+  <h2>6. Data Sharing and Third-Party Services</h2>
+  <p>We do not sell or rent your personal information.</p>
+  <p>Voice recordings, imported audio files, and reminder content are stored locally on your device and are not uploaded to our servers or Firebase Analytics.</p>
+  <p>VoiceNudge uses Google Firebase Analytics, a third-party service provided by Google, to collect and process app usage and technical information for analytics purposes.</p>
+  <p>Google may process information in accordance with its own privacy policies and terms.</p>
+  <p>The App may also rely on services provided by Apple or Google to support operating system functionality, such as notifications and alarm delivery.</p>
+  <p>For further information:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google Privacy Policy</a></li>
+    <li><a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer" target="_blank">Apple Privacy Policy</a></li>
+  </ul>
+
+  <h2>7. Data Retention and Deletion</h2>
+  <p>Reminder information, voice recordings, and imported audio files remain on your device until you delete them or remove the App.</p>
+  <p>You can delete individual reminders and associated audio files through the App.</p>
+  <p>Uninstalling the App may remove locally stored application data. Information retained in device backups, if any, may be subject to your device backup settings.</p>
+  <p>Technical and usage information processed by Firebase Analytics is retained according to Google's applicable retention policies and the configuration of the Firebase project.</p>
+
+  <h2>8. Children's Privacy</h2>
+  <p>VoiceNudge is not specifically designed to collect personal information from children.</p>
+  <p>We do not knowingly collect personal information from children through the App.</p>
+  <p>If you believe that a child has provided personal information to us, please contact us so we can review the matter.</p>
+
+  <h2>9. Your Privacy Rights</h2>
+  <p>Depending on your location and applicable privacy laws, you may have rights regarding your personal information, including the right to:</p>
+  <ul>
+    <li>Request information about personal data processing.</li>
+    <li>Request access to personal information.</li>
+    <li>Request correction or deletion of personal information, where applicable.</li>
+    <li>Withdraw consent where processing is based on consent.</li>
+  </ul>
+  <p>Since reminder content and voice recordings are stored locally on your device, you can manage or delete this information directly within the App or through your device settings.</p>
+  <p>For privacy-related questions or requests, please contact us using the information provided below.</p>
+
+  <h2>10. Changes to This Privacy Policy</h2>
+  <p>We may update this Privacy Policy from time to time to reflect changes to the App, third-party services, applicable laws, or our privacy practices.</p>
+  <p>Any updates will be published on this page with a revised "Last updated" date.</p>
+  <p>We encourage you to review this page periodically.</p>
+
+  <h2>11. Contact Us</h2>
+  <p>If you have any questions, concerns, or requests regarding this Privacy Policy or VoiceNudge's privacy practices, please contact us:</p>
+  <p><strong>Developer:</strong> NexusCraft Studio<br>
+  <strong>Email:</strong> <a href="mailto:nexuscraft.apps@gmail.com">nexuscraft.apps@gmail.com</a></p>
+
+  <footer>© 2026 NexusCraft Studio. All rights reserved.</footer>
+</main>
 </body>
 </html>
